@@ -11,7 +11,7 @@ I believe this is a bug that has existed for a while with remotetech, at least a
 - Harmony 2 (included with many mods; install separately if needed)
 
 ## Known Issues
-- A harmless NullReferenceException from stock ModuleScienceLab.OnTransmissionComplete 
+- A NullReferenceException from stock ModuleScienceLab.OnTransmissionComplete 
   still appears in KSP.log after transmission. This has no gameplay effect — 
   science is correctly awarded and the lab buffer correctly deducts before it fires.
   -Not tested with transmitting from background vessels. There's a chance if you're not directly controlling the vessel with the MPL at the time of transmission, science could be lost or duped or nothing happens at all.
